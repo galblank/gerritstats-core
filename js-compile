@@ -1,0 +1,4 @@
+#!/bin/sh
+
+unset JAVA_TOOL_OPTIONS
+java -jar closure-compiler-v20200315.jar "${@}"
